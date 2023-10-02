@@ -8,9 +8,14 @@ fun main(args: Array<String>) {
 //    val instance = MovieTicketPrice()
 //    instance.progStart()
 
-    //Practice 3
-    val instance = TemperatureConverter()
-    instance.progStart()
+//    //Practice 3
+//    val instance = TemperatureConverter()
+//    instance.progStart()
+
+    //Practice 4
+    val brunoSong = Song("We Don't Talk About Bruno", "Encanto Cast", 2022, 1_000_000)
+    brunoSong.printDescription()
+    println(brunoSong.isPopular)
 
 
 }
